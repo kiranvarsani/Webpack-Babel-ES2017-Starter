@@ -7,4 +7,4 @@
 4. Run `npm run build` to build the project for Production
 
 ### Note
-This is a sample application only which uses jQuery, Lodash, and Bootstrap as examples only. You can remove these dependencies if you are not planning to use them.
+This is a sample application which uses jQuery, Lodash, and Bootstrap as examples only. You can remove these dependencies if you are not planning to use them.
