@@ -1,1 +1,1 @@
-### ES2017 with Babel and Webpack - starter pack
+# ES2017 with Babel and Webpack - starter pack
