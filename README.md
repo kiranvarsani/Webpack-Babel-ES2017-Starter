@@ -5,3 +5,6 @@
 2. Run `npm install` in the command prompt while inside the project root folder
 3. Run `npm start` to launch the application in webpack-dev-server (Development mode)
 4. Run `npm run build` to build the project for Production
+
+### Note
+This is a sample application which uses jQuery, Lodash, and Bootstrap as examples only. You can remove these dependencies if you are not planning to use them.
