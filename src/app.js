@@ -1,5 +1,4 @@
 import { person, sayHello, MyClass } from "./lib";
-import $ from "jquery";
 import _ from "lodash";
 
 console.log(person.name);
@@ -21,6 +20,6 @@ async function getPosts() {
 getPosts().then(posts => {
   console.log(_.flattenDeep(posts.data));
   _.forEach(posts.data, function(data) {
-    $("#container").append(`<img class='image-responsive' style='margin:5px;' src=${data.avatar} />`);
+    $("#container").append(`<div class='col-sm-1'><img class='image-responsive' src=${data.avatar} /></div>`);
   });
 });
